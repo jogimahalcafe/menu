@@ -1,0 +1,54 @@
+
+body {
+  background-image: url('assets/bg-texture.png');
+  background-repeat: repeat;
+  background-color: #fdf4f5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+  padding: 100px 20px 80px;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.palm {
+  position: absolute;
+  bottom: 0;
+  width: 140px;
+  height: auto;
+}
+
+.palm-left {
+  left: 20px;
+}
+
+.palm-right {
+  right: 20px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .palm {
+    width: 90px;
+  }
+}
