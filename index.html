@@ -2,41 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Café Menu</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <img src="images/hero.jpg" alt="Cafe Hero Image" class="hero-image" />
-    <div class="hero-text">
-      <h1>Explore Our Menu</h1>
-    </div>
+  <!-- Header -->
+  <header class="header">
+    <h1 class="cafe-name">Brew & Bite Café</h1>
+    <p class="tagline">Explore Our Handcrafted Menu</p>
   </header>
 
-  <!-- Pizza Section -->
-  <section class="menu-section">
-    <div class="section-header">
-      <img src="images/pizza-section.jpg" alt="Pizza Section" class="section-img">
-      <h2>Pizza</h2>
+  <!-- Carousel Container -->
+  <div class="carousel-container" id="carousel">
+    
+    <!-- Slide 1: Hero -->
+    <div class="carousel-slide">
+      <img src="images/hero.jpg" alt="Hero" class="hero-img">
     </div>
-    <div class="menu-items">
-      <div class="menu-item">
-        <h3>Margherita</h3>
-        <p>Classic cheese & tomato</p>
-      </div>
-      <div class="menu-item">
-        <h3>Farmhouse</h3>
-        <p>Mushroom, capsicum, onion, tomato</p>
-      </div>
-      <div class="menu-item">
-        <h3>Peppy Paneer</h3>
-        <p>Paneer, capsicum, spicy red paprika</p>
-      </div>
-    </div>
-  </section>
 
+    <!-- Slide 2: Pizza Section -->
+    <div class="carousel-slide section">
+      <img src="images/pizza.jpg" alt="Pizza" class="section-img">
+      <h2>Pizza</h2>
+      <ul class="menu-list">
+        <li>
+          <h3>Margherita</h3>
+          <p>Classic cheese and tomato</p>
+        </li>
+        <li>
+          <h3>Farmhouse</h3>
+          <p>Loaded with veggies</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Slide 3: Add more sections here -->
+    <div class="carousel-slide section">
+      <h2>Drinks</h2>
+      <ul class="menu-list">
+        <li>
+          <h3>Cold Coffee</h3>
+          <p>Chilled and refreshing</p>
+        </li>
+        <li>
+          <h3>Herbal Tea</h3>
+          <p>Light and soothing</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Add 4 more slides below as needed -->
+
+  </div>
+
+  <!-- Swipe Indicators -->
+  <div class="indicators" id="indicators"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
