@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Café Menu</title>
+  <title>Brew & Bite Café</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -14,17 +14,17 @@
     <p class="tagline">Explore Our Handcrafted Menu</p>
   </header>
 
-  <!-- Carousel Container -->
-  <div class="carousel-container" id="carousel">
-    
-    <!-- Slide 1: Hero -->
-    <div class="carousel-slide">
-      <img src="images/hero.jpg" alt="Hero" class="hero-img">
-    </div>
+  <!-- Carousel -->
+  <main class="carousel-container" id="carousel">
 
-    <!-- Slide 2: Pizza Section -->
-    <div class="carousel-slide section">
-      <img src="images/pizza.jpg" alt="Pizza" class="section-img">
+    <!-- Slide 1: Hero -->
+    <section class="carousel-slide">
+      <img src="images/hero.jpg" alt="Hero" class="hero-img">
+    </section>
+
+    <!-- Slide 2: Pizza -->
+    <section class="carousel-slide section">
+      <img src="images/pizza.jpg" alt="Pizza Section" class="section-img">
       <h2>Pizza</h2>
       <ul class="menu-list">
         <li>
@@ -36,28 +36,28 @@
           <p>Loaded with veggies</p>
         </li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Slide 3: Add more sections here -->
-    <div class="carousel-slide section">
+    <!-- Slide 3: Drinks -->
+    <section class="carousel-slide section">
       <h2>Drinks</h2>
       <ul class="menu-list">
         <li>
           <h3>Cold Coffee</h3>
-          <p>Chilled and refreshing</p>
+          <p>Chilled and creamy</p>
         </li>
         <li>
-          <h3>Herbal Tea</h3>
-          <p>Light and soothing</p>
+          <h3>Mint Mojito</h3>
+          <p>Fresh & fizzy</p>
         </li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Add 4 more slides below as needed -->
+    <!-- Add more sections here -->
 
-  </div>
+  </main>
 
-  <!-- Swipe Indicators -->
+  <!-- Dots Indicator -->
   <div class="indicators" id="indicators"></div>
 
   <script src="script.js"></script>
