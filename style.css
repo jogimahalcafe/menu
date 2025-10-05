@@ -58,6 +58,15 @@ img {
   margin-bottom: 10px;
   color: #333;
 }
+.menu-image {
+  width: 100%;
+  max-width: 600px;  /* Don't let it grow too large */
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+  border-radius: 10px;
+}
+
 
 /* Menu Table Styles */
 .menu-table {
