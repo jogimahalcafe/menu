@@ -119,20 +119,22 @@ img {
   .menu-row {
     font-size: 0.9rem;
     padding: 8px 10px;
-    .map-container {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-.map-container iframe {
-  width: 100%;
-  height: 200px;
-  display: block;
-  border: 0;
+   .map-button {
+  display: inline-block;
+  background-color: #27ae60;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin: 15px auto;
 }
 
+.map-button:hover {
+  background-color: #1e8449;
+}
   }
 }
