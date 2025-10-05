@@ -119,22 +119,25 @@ img {
   .menu-row {
     font-size: 0.9rem;
     padding: 8px 10px;
-   .map-button {
+  }  
+  .map-button {
   display: inline-block;
   background-color: #27ae60;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
   transition: background-color 0.3s ease;
   text-align: center;
-  margin: 15px auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
 }
 
 .map-button:hover {
   background-color: #1e8449;
 }
+
   }
 }
