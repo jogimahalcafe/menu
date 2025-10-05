@@ -2,150 +2,69 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Brew & Bite Café</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew & Bite Café Menu</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <h1 class="cafe-name">Brew & Bite Café</h1>
-    <p class="tagline">Explore Our Handcrafted Menu</p>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay">
+      <h1 class="cafe-name">Brew & Bite Café</h1>
+      <p class="tagline">Explore Our Handcrafted Menu</p>
+    </div>
+    <img src="hero.jpg" alt="Cafe Hero Image" />
   </header>
 
-  <!-- Carousel -->
-  <main class="carousel-container" id="carousel">
+  <main class="menu">
 
-    <!-- Slide 1: Hero -->
-    <section class="carousel-slide">
-      <img src="hero.webp" alt="Hero" class="hero-img">
+    <!-- Pizza Section -->
+    <section class="menu-section">
+      <h2 class="section-title">🍕 Pizza</h2>
+      <div class="menu-table three-column">
+        <div class="menu-row header">
+          <div>Item</div>
+          <div>Medium</div>
+          <div>Large</div>
+        </div>
+        <div class="menu-row"><div>Margherita Pizza</div><div>₹150</div><div>₹250</div></div>
+        <div class="menu-row"><div>Onion Pizza</div><div>₹180</div><div>₹280</div></div>
+        <div class="menu-row"><div>Tomato Cheese Pizza</div><div>₹180</div><div>₹280</div></div>
+        <div class="menu-row"><div>Veg Cheese Pizza</div><div>₹200</div><div>₹300</div></div>
+        <div class="menu-row"><div>Corn Cheese Pizza</div><div>₹220</div><div>₹300</div></div>
+        <div class="menu-row"><div>Onion Capsicum Pizza</div><div>₹220</div><div>₹320</div></div>
+        <div class="menu-row"><div>Mexican Pizza</div><div>₹230</div><div>₹320</div></div>
+        <div class="menu-row"><div>Onion Capsicum Tomato Pizza</div><div>₹230</div><div>₹330</div></div>
+        <div class="menu-row"><div>Paneer Cheese Pizza</div><div>₹230</div><div>₹330</div></div>
+        <div class="menu-row"><div>Paneer Onion Capsicum Pizza</div><div>₹240</div><div>₹350</div></div>
+        <div class="menu-row"><div>Peppy Paneer Pizza</div><div>₹250</div><div>₹350</div></div>
+        <div class="menu-row"><div>Hot Paneer Spicy Pizza</div><div>₹250</div><div>₹350</div></div>
+        <div class="menu-row"><div>Veg Mushroom Pizza</div><div>₹250</div><div>₹350</div></div>
+        <div class="menu-row"><div>Farmhouse Pizza</div><div>₹250</div><div>₹350</div></div>
+        <div class="menu-row"><div>Tandoori Paneer Pizza</div><div>₹260</div><div>₹380</div></div>
+        <div class="menu-row"><div>Tasty Bites Special Pizza</div><div>₹280</div><div>₹400</div></div>
+      </div>
     </section>
 
-    <!-- Slide 2: Pizza -->
-<section class="carousel-slide section">
-  <img src="images/pizza.jpg" alt="Pizza Section" class="section-img">
-  <h2>Pizza</h2>
-
-  <!-- 🍕 Three-Column Pizza Menu -->
-  <div class="pizza-menu">
-    <div class="pizza-row header-row">
-      <h3>Pizza Type</h3>
-      <h3>Medium</h3>
-      <h3>Large</h3>
-    </div>
-
-    <div class="pizza-row"><div>Margherita Pizza</div><div>₹150</div><div>₹250</div></div>
-    <div class="pizza-row"><div>Onion Pizza</div><div>₹180</div><div>₹280</div></div>
-    <div class="pizza-row"><div>Tomato Cheese Pizza</div><div>₹180</div><div>₹280</div></div>
-    <div class="pizza-row"><div>Veg Cheese Pizza</div><div>₹200</div><div>₹300</div></div>
-    <div class="pizza-row"><div>Corn Cheese Pizza</div><div>₹220</div><div>₹300</div></div>
-    <div class="pizza-row"><div>Onion Capsicum Pizza</div><div>₹220</div><div>₹320</div></div>
-    <div class="pizza-row"><div>Mexican Pizza</div><div>₹230</div><div>₹320</div></div>
-    <div class="pizza-row"><div>Onion Capsicum Tomato Pizza</div><div>₹230</div><div>₹330</div></div>
-    <div class="pizza-row"><div>Paneer Cheese Pizza</div><div>₹230</div><div>₹330</div></div>
-    <div class="pizza-row"><div>Paneer Onion Capsicum Pizza</div><div>₹240</div><div>₹350</div></div>
-    <div class="pizza-row"><div>Peppy Paneer Pizza</div><div>₹250</div><div>₹350</div></div>
-    <div class="pizza-row"><div>Hot Paneer Spicy Pizza</div><div>₹250</div><div>₹350</div></div>
-    <div class="pizza-row"><div>Veg Mushroom Pizza</div><div>₹250</div><div>₹350</div></div>
-    <div class="pizza-row"><div>Farmhouse Pizza</div><div>₹250</div><div>₹350</div></div>
-    <div class="pizza-row"><div>Tandoori Paneer Pizza</div><div>₹260</div><div>₹380</div></div>
-    <div class="pizza-row"><div>Tasty Bites Special Pizza</div><div>₹280</div><div>₹400</div></div>
-  </div>
-</section>
-
- <!-- Slide 3: Sandwiches & Burgers -->
-<section class="carousel-slide section">
-  <h2>🥪 Sandwiches</h2>
-  <div class="menu-table">
-    <div class="menu-row">
-      <div class="item">Aloo Sandwich</div>
-      <div class="price">₹80</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Vegetable Sandwich</div>
-      <div class="price">₹100</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Plain Cheese Sandwich</div>
-      <div class="price">₹100</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Onion Capsicum Cheese Sandwich</div>
-      <div class="price">₹110</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Tandoori Cheese Sandwich</div>
-      <div class="price">₹120</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Veg Cheese Sandwich</div>
-      <div class="price">₹110</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Tandoori Corn Sandwich</div>
-      <div class="price">₹120</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Paneer Cheese Sandwich</div>
-      <div class="price">₹130</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Tandoori Paneer Sandwich</div>
-      <div class="price">₹150</div>
-    </div>
-  </div>
-
-  <h2>🍔 Burgers</h2>
-  <div class="menu-table">
-    <div class="menu-row">
-      <div class="item">Aloo Tikki Burger</div>
-      <div class="price">₹50</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Veg Burger</div>
-      <div class="price">₹50</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Cheese Burger</div>
-      <div class="price">₹60</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Peri Peri Burger</div>
-      <div class="price">₹70</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Tandoori Cheese Burger</div>
-      <div class="price">₹70</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Paneer Cheese Burger</div>
-      <div class="price">₹70</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Veg Jalapeno Burger</div>
-      <div class="price">₹80</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Hot Spicy Burger</div>
-      <div class="price">₹80</div>
-    </div>
-    <div class="menu-row">
-      <div class="item">Tandoori Paneer Burger</div>
-      <div class="price">₹80</div>
-    </div>
-  </div>
-</section>
-
-
-
-    <!-- Add more sections here -->
+    <!-- Sandwich Section -->
+    <section class="menu-section">
+      <h2 class="section-title">🥪 Sandwiches</h2>
+      <div class="menu-table two-column">
+        <div class="menu-row"><div>Aloo Sandwich</div><div>₹80</div></div>
+        <div class="menu-row"><div>Vegetable Sandwich</div><div>₹100</div></div>
+        <div class="menu-row"><div>Plain Cheese Sandwich</div><div>₹100</div></div>
+        <div class="menu-row"><div>Onion Capsicum Cheese Sandwich</div><div>₹110</div></div>
+        <div class="menu-row"><div>Tandoori Cheese Sandwich</div><div>₹120</div></div>
+        <div class="menu-row"><div>Veg Cheese Sandwich</div><div>₹110</div></div>
+        <div class="menu-row"><div>Tandoori Corn Sandwich</div><div>₹120</div></div>
+        <div class="menu-row"><div>Paneer Cheese Sandwich</div><div>₹130</div></div>
+        <div class="menu-row"><div>Tandoori Paneer Sandwich</div><div>₹150</div></div>
+      </div>
+    </section>
 
   </main>
 
-  <!-- Dots Indicator -->
-  <div class="indicators" id="indicators"></div>
-
-  <script src="script.js"></script>
 </body>
 </html>
