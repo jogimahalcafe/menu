@@ -27,6 +27,8 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  margin-bottom: 20px; /* adjust as needed */
+
 }
 .hero .overlay {
   position: absolute;
