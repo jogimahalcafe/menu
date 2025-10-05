@@ -70,6 +70,53 @@ h2 {
   font-size: 1.4rem;
   color: #fff;
 }
+/* 🍕 Pizza Menu Styles */
+.pizza-menu {
+  display: grid;
+  grid-template-columns: 1fr 100px 100px;
+  max-width: 800px;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pizza-row {
+  display: contents; /* grid children follow parent's layout */
+}
+
+.pizza-row > * {
+  padding: 0.8rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-row > * {
+  background-color: #f39c12;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.pizza-row > :nth-child(2),
+.pizza-row > :nth-child(3) {
+  justify-content: center;
+  text-align: center;
+}
+
+/* Mobile Responsive */
+@media (max-width: 500px) {
+  .pizza-menu {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+
+  .pizza-row > * {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+}
 
 .menu-list {
   list-style: none;
